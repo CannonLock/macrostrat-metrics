@@ -18,6 +18,7 @@ jobs:
     - uses: actions/setup-python@v5
       with:
         python-version: '3.9'
+        cache: 'pip'
     - run: pip install -r .github/scripts/ingestion-data/requirements.txt
     - run: python .github/scripts/ingestion-data/main.py
     - uses: stefanzweifel/git-auto-commit-action@v4
