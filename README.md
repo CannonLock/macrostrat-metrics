@@ -1,0 +1,1 @@
+Generates and saves macrostrat ingestion statistics
